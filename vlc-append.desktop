@@ -4,6 +4,7 @@ Icon=vlc
 ServiceTypes=KonqPopupMenu/Plugin,video/*,audio/*
 Type=Service
 X-KDE-Priority=TopLevel
+X-KDE-PluginInfo-License=GPL
 Actions=Append
 
 [Desktop Action Append]
