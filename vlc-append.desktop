@@ -1,0 +1,12 @@
+[Desktop Entry]
+Actions=append
+Icon=vlc
+ServiceTypes=KonqPopupMenu/Plugin,video/*,audio/*
+Type=Service
+X-KDE-Priority=TopLevel
+Actions=Append
+
+[Desktop Action Append]
+Exec=vlc --one-instance --playlist-enqueue "%u"
+Icon=vlc
+Name=Add to playlist
